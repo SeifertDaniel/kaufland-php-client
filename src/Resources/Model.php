@@ -26,7 +26,7 @@ class Model
         return $this->limit;
     }
 
-    public function setLimit(int $limit): static
+    public function setLimit(int $limit)
     {
         $this->limit = $limit;
         return $this;
@@ -37,13 +37,13 @@ class Model
         return $this->offset;
     }
 
-    public function setOffset(int $offset): static
+    public function setOffset(int $offset)
     {
         $this->offset = $offset;
         return $this;
     }
 
-    public function setFilter(string $column, $operation, $value = null): static
+    public function setFilter(string $column, $operation, $value = null)
     {
         if (is_null($value)) {
             $value = $operation;
@@ -63,7 +63,7 @@ class Model
         ));
     }
 
-    public function setQuery(string|array $key, mixed $value = null): static
+    public function setQuery($key, $value = null)
     {
         if (is_array($key)) {
             $this->query = $key;
