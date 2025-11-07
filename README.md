@@ -1,12 +1,8 @@
 ![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg) ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/productflowbv/kaufland-php-client?include_prereleases) [![MIT License](https://img.shields.io/github/license/productflowbv/kaufland-php-client)](https://github.com/productflowbv/kaufland-php-client/blob/master/LICENSE) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
-# STILL WORK IN PROGRESS
+# Kaufland PHP Client SDK
 
-Fork of the ProductFlows
-
-# kaufland-php-client
-
-An unofficial client for the Kaufland/Real.de API.
+An unofficial client SDK for the Kaufland/Real.de API.
 
 ## Installation
 This project can easily be installed through Composer.
